@@ -3,7 +3,7 @@ import style from './Header.module.css'
 
 
 const Header = () => {
-  const [isMobile, setMobile] = useState(true)
+  const [isMobile, setMobile] = useState(false)
   return (
     <div className={style.container}>
       <div className={style.nav}>
